@@ -17,5 +17,5 @@ to add your package to this database, open a issue like this:
   
   
   
-if your package isn't on github, link the url to the package download, it HAVE to end with
-filename.zip, where filename is the package file name
+if your package isn't on github, the api_latest_url is the url to the package download, it HAVE to end with
+filename.zip, where filename is the package file name, and the repo url is null
