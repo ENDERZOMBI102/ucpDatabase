@@ -8,11 +8,8 @@ to add your package to this database, open a issue like this:
 "package name": {
 
     "repo": "github package repo url",
-
     "author": "your username",
-
     "co_author": "the collaborators usernames",
-
     "api_latest_url": "https://api.github.com/repos/yourgithubusername/reponame/releases/latest"
 
   },
