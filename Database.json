@@ -1,17 +1,20 @@
 {
-  "radelite": {
+  "0": {
+    "name": "radelite",
     "repo": "https://github.com/ENDERZOMBI102/Radelite_BEE2_package",
     "author": "ENDERZOMBI102",
     "co_author": "Flash4433, Libbybapa",
     "api_latest_url": "https://api.github.com/repositories/190224690/releases/latest"
   },
-  "csignageflash": {
+  "1": {
+    "name": "Flas4433 custom signages",
     "repo": "https://github.com/Flash4433/Custom-Signages-BEE2_Misc",
     "author": "Flash4433",
     "co_author": null,
     "api_latest_url": "https://api.github.com/repos/Flash4433/Custom-Signages-BEE2_Misc/releases/latest"
   },
-  "csignagelibby": {
+  "2": {
+    "name": "Libbybapa custom signages",
     "repo": "drive",
     "author": "Libbybapa",
     "co_author": null,
