@@ -5,7 +5,6 @@
     "author": "ENDERZOMBI102",
     "co_author": "Flash4433, Libbybapa",
     "version": "null",
-    "direct_download": "false",
     "api_latest_url": "https://api.github.com/repositories/190224690/releases/latest"
   },
   "1": {
@@ -14,7 +13,6 @@
     "author": "Flash4433",
     "co_author": null,
     "version": "null",
-    "direct_download": "false",
     "api_latest_url": "https://api.github.com/repos/Flash4433/Custom-Signages-BEE2_Misc/releases/latest"
   },
   "2": {
@@ -23,7 +21,6 @@
     "author": "Libbybapa",
     "co_author": null,
     "version": "1.0",
-    "direct_download": "true",
     "api_latest_url": "https://drive.google.com/uc?id=1HcTjfJR8dMMi1T1666mKURFX-e7mM9Kw&authuser=0&export=download"
   }
 }
