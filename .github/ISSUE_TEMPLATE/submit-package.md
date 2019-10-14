@@ -12,7 +12,6 @@ assignees: ''
     "repo": "github_repo_url_here_if_not_exist_put_null",
     "author": "package_author",
     "co_author": "package_co_authors_if_there_isn't_coauthors_put_author",
-	"version" : "package_version_here_only_numbers_and_dots_permitted"
-	"direct_download": "true/false" if the "api_latest_url" is from github or not (true=isn't, false=is)
+    "version" : "package_version_here_only_numbers_and_dots_permitted"
     "api_latest_url": "https://api.github.com/repos/github_username_here/repo_name_here/releases/latest" put the download link if you aren't using github
   },
