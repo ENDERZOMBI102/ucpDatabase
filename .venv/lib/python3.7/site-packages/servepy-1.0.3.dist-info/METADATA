@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: servepy
+Version: 1.0.3
+Summary: Simple server framework
+Home-page: https://github.com/Stuart-Wilcox/servepy
+Author: Stuart Wilcox
+Author-email: stuart_wilcox@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+
+
+Servepy is an HTTP server framework modelled after the Express.js library for Node.js
+For more information and for documentation, please visit https://github.com/Stuart-Wilcox/servepy
+
+
