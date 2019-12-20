@@ -2,7 +2,7 @@ from servepy import *
 from json import dumps
 from threading import Thread
 
-class db(Thread):
+class handler(Thread):
     def get(req, res):
         with open('./Database.json', 'r') as file:
             tfile = file.read()
@@ -31,16 +31,15 @@ class db(Thread):
             response["message"] = response["message"] + "\n The protocol used isn't https."
         # add the package to the database
         try:
-            reqData = req.content[""]
+            reqData = req.content
         except err:
             response["status"] = 406
             response["validContentType"] = False
-            response["message"] = response["message"] + "\n There no json in the request."
-        with open('./Database.json', 'r') as file:
-            data = json.dumps(file)
-            data[]
-
-            
+            response["message"] = response["message"] + "\n There's no json in the request."
+        if response["status"] == 200:
+            with open('./Database.json', 'r') as file:
+                data = json.dumps(file)
+                for
 
 
 

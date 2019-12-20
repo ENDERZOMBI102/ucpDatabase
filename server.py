@@ -5,8 +5,8 @@ from handler import *
 app = App()
 router = Router()
 
-router.get("/API/get/", db.get) # send the client the database
-router.post("/API/create/", db.createPackage) # submit a package to the database
+router.get("/API/get/", handler.get) # send the client the database
+router.post("/API/create/", handler.createPackage) # submit a package to the database
 
 
 
