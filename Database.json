@@ -4,7 +4,7 @@
     "ID": "Radelite_package",
     "name": "radelite",
     "author": "ENDERZOMBI102",
-    "co_author": "Flash4433, Libbybapa",
+    "co_author": ["Flash4433", "Libbybapa"],
     "desc": "Adds items from the past Radelite's addons",
     "version": "null",
     "api_latest_url": "https://api.github.com/repos/ENDERZOMBI102/Radelite_BEE2_package/releases/latest"
