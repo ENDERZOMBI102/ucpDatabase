@@ -16,5 +16,6 @@ assignees: ''
     "desc": "package description",
     "filename": "package_file_name",
     "version" : "package_version_here_only_numbers_and_dots_permitted_if_using_github_put_null"
+    "icon_url": "package_icon_url_here", //optional
     "api_latest_url": "https://api.github.com/repos/github_username_here/repo_name_here/releases/latest" //put the download link if you aren't using github
 },
