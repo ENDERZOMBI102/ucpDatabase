@@ -1,5 +1,0 @@
-tasks:
-  - init: echo trying to execute server.
-    command: pipenv run python3 server.py
-image:
-  file: .gitpod.Dockerfile
