@@ -6,7 +6,7 @@
     "author": "ENDERZOMBI102",
     "co_author": ["Flash4433", "Libbybapa"],
     "desc": "Adds items from the past Radelite's addons",
-    "version": "null",
+    "version": null,
     "icon_url": "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/raw/master/icon.png",
     "api_latest_url": "https://api.github.com/repos/ENDERZOMBI102/Radelite_BEE2_package/releases/latest"
   },
@@ -23,12 +23,13 @@
   },
   {
     "type": "bee",
-    "ID": "qol",
-    "name": "Quality of Life",
+    "ID": "QOL_DECO",
+    "name": "qol",
     "author": "Baguettery",
     "co_author": null,
-    "desc": "QOL Instances ported to PeTI",
-    "version": "null",
+    "desc": "A package that brings qol to bee.",
+    "version" : null,
+    "icon_url": null,
     "api_latest_url": "https://api.github.com/repos/koerismo/QOL-BEE/releases/latest"
   }
 ]
