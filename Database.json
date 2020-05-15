@@ -20,5 +20,15 @@
     "filename": "signage_custom",
     "version": "1.0",
     "api_latest_url": "https://drive.google.com/uc?id=1HcTjfJR8dMMi1T1666mKURFX-e7mM9Kw&authuser=0&export=download"
+  },
+  {
+    "type": "bee",
+    "ID": "qol",
+    "name": "Quality of Life",
+    "author": "Baguettery",
+    "co_author": null,
+    "desc": "QOL Instances ported to PeTI",
+    "version": "null",
+    "api_latest_url": "https://api.github.com/repos/koerismo/QOL-BEE/releases/latest"
   }
 ]
