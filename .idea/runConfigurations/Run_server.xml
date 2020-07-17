@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run server" type="BatchConfigurationType" factoryName="Batch">
+    <module name="ucpDatabase" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+    <option name="PARENT_ENVS" value="true" />
+    <option name="SCRIPT_NAME" value="pipenv run uvicorn main:app" />
+    <option name="PARAMETERS" value="" />
+    <method v="2" />
+  </configuration>
+</component>
