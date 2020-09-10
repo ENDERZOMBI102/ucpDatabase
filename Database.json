@@ -9,8 +9,7 @@
          "Libbybapa"
       ],
       "description": "Adds items from the past Radelite's addons",
-      "version": null,
-      "api_latest_url": "https://api.github.com/repos/ENDERZOMBI102/Radelite_BEE2_package/releases/latest"
+      "repo": "https://github.com/ENDERZOMBI102/Radelite_BEE2_package"
    },
    {
       "type": "bee",
@@ -20,8 +19,7 @@
          "Baguettery"
       ],
       "description": "A package that brings qol to bee.",
-      "version": null,
       "icon_url": null,
-      "api_latest_url": "https://api.github.com/repos/koerismo/QOL-BEE/releases/latest"
+      "repo": "https://github.com/koerismo/QOL-BEE"
    }
 ]
