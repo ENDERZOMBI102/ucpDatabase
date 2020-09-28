@@ -1,0 +1,25 @@
+{
+	"users": {
+		"278238283283821938": {
+			"username": "ENDERZOMBI102",
+			"packages": [
+				"Radelite_package",
+				"decosta"
+			]
+		}
+	},
+	"packages": {
+		"Radelite_package": {
+			"type": "bee",
+			"identifier": "Radelite_package",
+			"name": "radelite",
+			"authors": [
+				"ENDERZOMBI102",
+				"Flash4433",
+				"Libbybapa"
+			],
+			"description": "Adds items from the past Radelite's addons",
+			"repo": "https://github.com/ENDERZOMBI102/Radelite_BEE2_package"
+		}
+	}
+}

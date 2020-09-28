@@ -1,16 +1,11 @@
 from fastapi import FastAPI
-from typing import Union, Dict, List
+import database
+import root
+import packages
 
+db = database.Database()
 app = FastAPI()
 
-database: Union[Dict[str, str], Dict[str, List[str]]]
+app.include_router(root.router)
+app.include_router(packages.router)
 
-
-@app.get("/")
-async def root():
-	return {"message": "Hello World"}
-
-
-@app.get('/api/database')
-async def getDatabase():
-	return database
