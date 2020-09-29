@@ -13,9 +13,13 @@ async def getAll():
 
 @router.get('/api/packages/from')
 async def getFrom(response: Response, identifier: str = None, name: str = None, author: str = None):
-	# do we have parameters?
-	if identifier is None and name is None and author is None:
-		# nope
+	if identifier is not None:
+		return Database.instance.getPackageFromIdentifier(identifier)
+	elif name is not None:
+		return Database.instance.getPackageFromName(name)
+	elif author is not None:
+		return Database.instance.getPackageFromAuthor(author)
+	else:
 		response.status_code = status.HTTP_400_BAD_REQUEST
 		return {
 			'error': 'no_parameters',
@@ -26,4 +30,10 @@ async def getFrom(response: Response, identifier: str = None, name: str = None, 
 				'author'
 			]
 		}
-	return Database.instance.getPackageFromIdentifier(identifier)
+
+
+
+
+@router.delete('/api/packages/{package_id}')
+async def deletePackage(package_id: str):
+	Database.instance.deletePackage(package_id)
